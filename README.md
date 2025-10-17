@@ -29,7 +29,7 @@ A travel booking application built with Nuxt.js for browsing and searching trave
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/btg-nuxt.git
+git clone https://github.com/Dani8888/btg-nuxt.git
 cd btg-nuxt
 npm install```
 
