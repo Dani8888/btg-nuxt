@@ -31,16 +31,14 @@ A travel booking application built with Nuxt.js for browsing and searching trave
 ```bash
 git clone https://github.com/Dani8888/btg-nuxt.git
 cd btg-nuxt
-npm install```
+npm install
 
 ### Run development server:
 
-```bash
-npm run dev```
+npm run dev
 
 ### Build for Production:
 
-```bash
 npm run build
 npm run generate
-npm start```
+npm start
