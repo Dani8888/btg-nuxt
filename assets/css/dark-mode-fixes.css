@@ -1,0 +1,84 @@
+/* DARK MODE FIXES - AGGRESSIVE APPROACH */
+
+.dark-mode * {
+  color: #f7fafc !important;
+}
+
+/* Reset specific elements yang perlu warna berbeda */
+.dark-mode .breadcrumb-link {
+  color: #6366f1 !important;
+}
+
+.dark-mode .primary-color {
+  color: #6366f1 !important;
+}
+
+.dark-mode .text-muted {
+  color: #a0aec0 !important;
+}
+
+.dark-mode .hero-subtitle,
+.dark-mode .category-count,
+.dark-mode .price-note,
+.dark-mode .rating-count,
+.dark-mode .product-description p,
+.dark-mode .no-products p,
+.dark-mode .breadcrumb-separator {
+  color: #a0aec0 !important;
+}
+
+/* Force background colors untuk kontras */
+.dark-mode .product-card,
+.dark-mode .product-price-section,
+.dark-mode .feature-item {
+  background-color: #2d3748 !important;
+}
+
+.dark-mode .pagination-button:not(:hover) {
+  background-color: #2d3748 !important;
+  border-color: #4a5568 !important;
+}
+
+/* Text yang harus sangat jelas */
+.dark-mode .product-title,
+.dark-mode .category-title,
+.dark-mode .hero-title,
+.dark-mode .breadcrumb-current,
+.dark-mode .page-info,
+.dark-mode .rating-value,
+.dark-mode .feature-text,
+.dark-mode .product-description h3,
+.dark-mode .error-content h2 {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* Button text */
+.dark-mode .pagination-button {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.dark-mode .pagination-button:hover:not(:disabled) {
+  color: #ffffff !important;
+}
+
+/* Price color tetap biru */
+.dark-mode .product-price {
+  color: #6366f1 !important;
+}
+
+.dark-mode span.page-info,
+.dark-mode h1.product-title,
+.dark-mode span.rating-value.dark-mode-text,
+.dark-mode .product-description h3,
+.dark-mode span.breadcrumb-current,
+.dark-mode h1.category-title.dark-mode-text,
+.dark-mode span.breadcrumb-current.dark-mode-text {
+    color: black !important;
+}
+
+.dark-mode nav.categories-nav {
+    color: white !important;
+    background: none !important;
+}
